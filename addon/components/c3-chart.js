@@ -43,7 +43,7 @@ export default Component.extend({
     const chartConfig = getProperties(this,
       ['data','axis','regions','bar','pie','donut','gauge',
       'grid','legend','tooltip','subchart','zoom','point',
-      'line','area','size','padding','color','transition']);
+      'line','spline','area','size','padding','color','transition']);
 
     // bind c3 chart to component's DOM element
     chartConfig.bindto = get(this, 'element');
